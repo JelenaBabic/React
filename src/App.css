@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    background-color: transparent;
+  }
+  
+  .home,
+  .services,
+  .blog,
+  .sign-up {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .services {
+    background-image: url('https://seethrumag.com/wp-content/uploads/2016/11/636069506023771601288741277_635877054566719987353059632_travel-the-world-dollarphotoclub-65482539-759x500.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(132, 166, 213);
+    font-size: 100px;
+  }
+  
+  .blog {
+    background-image: url('https://www.moneycrashers.com/wp-content/uploads/2018/10/travel-world-map.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .sign-up {
+    background-image: url('https://i.pinimg.com/originals/fa/c5/16/fac516285aa8f58845c710bf042a5911.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
